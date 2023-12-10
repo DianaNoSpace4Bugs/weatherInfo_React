@@ -5,12 +5,12 @@ const WeatherCard = ({ data }) => {
 
   return (
     <>
-    <section>
-      <h5>{new Date(fecha).toLocaleDateString()}</h5>
-      <p>Hora: {tiempo}</p>
-      <p>Temperatura: {temperatura}°C</p>
-      <p>Tiempo: {weather}</p>
-      <p>Viento: {viento.speed} m/s</p>
+    <section id='card'>
+      <h1>{new Date(fecha).toLocaleDateString()}</h1>
+      <p id='1'>Hora: {tiempo}</p>
+      <p id='2'>Temperatura: {temperatura}°C</p>
+      <p id='3'>Tiempo: {weather}</p>
+      <p id='4'>Viento: {viento.speed} m/s</p>
     </section>
     </>
   );

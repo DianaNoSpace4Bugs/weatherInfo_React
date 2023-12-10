@@ -46,8 +46,10 @@ const WeatherList = () => {
   };
 
   return (
-    <section>
-      <form onSubmit={handleSubmit}>
+    <section id='weatherListContainer'>
+      <form id='formularioBusqueda' onSubmit={handleSubmit}>
+        <p>Search for a city or country</p>
+        <br />
         <input name="ubicacion" placeholder='Ciudad, País' />
         <br />
         <button type="submit">Buscar</button>

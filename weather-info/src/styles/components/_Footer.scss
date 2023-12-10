@@ -1,0 +1,23 @@
+@import '../utils/variables.scss';
+
+footer {
+    background-color: #f39c12;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+    margin-bottom: 38px;
+}
+
+footer h1 {
+    color: #256ea0;
+    margin: 0;
+}
+
+footer img {
+    width: 114px;
+    height: auto;
+    margin-right: 10px;
+}

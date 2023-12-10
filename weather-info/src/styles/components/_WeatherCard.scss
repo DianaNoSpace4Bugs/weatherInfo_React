@@ -1,0 +1,26 @@
+@import '../utils/variables.scss';
+
+#card{
+    width: 64%;
+    margin: 10px;
+    border: 2px solid $color-accent;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+#card h1{
+    text-align: center;
+    padding: 16px;
+    background-color: $color-primary;
+    color: #f2eeee;
+    font-size: x-large;
+    margin: 0;
+    border: 1px solid #705898;
+}

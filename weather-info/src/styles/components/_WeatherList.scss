@@ -1,0 +1,66 @@
+@import '../utils/variables.scss';
+
+#formularioBusqueda{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+#formularioBusqueda p{
+    overflow: hidden;
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    font-size: 28px;
+    animation: typing 3s steps(40) forwards;
+    margin-bottom: -15px;
+}
+#formularioBusqueda p.done-typing {
+    animation: none;
+    border-right: none;
+}
+#formularioBusqueda input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid $color-accent;
+    background-color: #ffc870;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 26px;
+    color:#256ea0;
+    font-family: weather;
+
+}
+#formularioBusqueda button{
+    width: 60%;
+    padding: 12px 28px;
+    background-color: #f39c12;
+    color: #256ea0;
+    /* border: none; */
+    /* border-radius: 43px; */
+    cursor: pointer;
+    font-size: 26px;
+    transition: background-color 0.3s ease;
+    margin-top: -10px;
+}
+#formularioBusqueda button:hover{
+    background-color: #ffc870;
+    color: #16496b;
+    scale: 1.05;
+}
+#weatherListContainer h4{
+    font-size: 26px;
+}
