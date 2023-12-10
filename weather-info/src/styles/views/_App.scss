@@ -1,0 +1,14 @@
+@import '../utils/variables.scss';
+
+#root {
+    text-align: center;
+    margin:5px auto;
+    min-height: 100vh;
+    font-family: pokemon;
+    background-color: $color-primary;
+}
+
+@font-face {
+    font-family: "pokemon";
+    src: url("../../../src/fonts/Under\ the\ Weather.otf");
+}
